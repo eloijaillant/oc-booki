@@ -128,8 +128,11 @@ a {
 	border-top-left-radius: 25px;
 }
 
+.filters-list-element:hover {
+	cursor: pointer;
+}
+
 .filters-list-element>span{
-	padding: 10px;
 	padding-right: 20px;
 }
 
@@ -140,7 +143,6 @@ a {
 	padding: 12px;
 	border-radius: 25px;
 	border: solid #DEEBFF 2px;
-	
 }
 
 .fa-solid.fa-location-dot {
