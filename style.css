@@ -171,6 +171,11 @@ form>input {
 	margin-left: 0px;
 	margin-right: 0px;
 	width: 200px;
+	padding: 5px;
+}
+
+form>input:focus{
+	outline: none;
 }
 
 form>button {
