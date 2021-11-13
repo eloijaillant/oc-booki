@@ -252,12 +252,11 @@ form>button {
 .hebergement-box {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
 }
 
 .hebergement-image {
 	height: 115px;
-	min-width: 100%;
+	width: 100%;
 }
 
 .hebergement-image img {
@@ -285,13 +284,15 @@ form>button {
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	margin-right: 40px;
-	padding: 50px 10px 50px 10px;
+	padding: 50px 30px 50px 30px;
+	max-width: 1100px;
 }
 
 .most-popular {
 	background-color: #F2F2F2;
 	border-radius: 15px;
-	padding: 50px 10px 50px 10px;
+	padding: 50px 30px 50px 30px;
+	width: 420px;
 }
 
 h3 {
@@ -319,25 +320,37 @@ p>span {
 	margin-bottom: 5px;
 }
 
-.popular {
-	width: 350px;
-	height: 150px;
+.popular.hebergement-link{
+	width: 345px;
+	height: 145px;
+    padding: 5px;
+    margin-top: 15px;
+	margin-bottom: 15px;
+    width: 100%;
+    border-radius: 15px;
 }
 
 .popular .hebergement-image{
-	max-width: 100%;
-	width: 200px;
+	width: 135px;
+	height: 100%;
 }
 
 .popular img{
-	max-width: 100%;
-	width: 200px;
+	width: 135px;
+	border-radius: 15px 0 0 15px;
+	height: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .popular .hebergement-box {
 	display: flex;
+    justify-content: space-between;
+	width: 345px;
+	height: 145px;
 }
 
 .popular .hebergement-description {
-	width: ;
+	width: 180px;
+	padding: 0;
 }
