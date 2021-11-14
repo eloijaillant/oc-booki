@@ -257,8 +257,8 @@ form>button {
     overflow: hidden;
     box-shadow: 0px 0px 10px #d2d2d2;
     flex-wrap: wrap;
-	width: 245px;
-    height: 200px;
+	width: 225px;
+    height: 180px;
     margin-bottom: 30px;
 }
 
@@ -270,16 +270,17 @@ form>button {
 .hebergement-box {
 	display: flex;
 	flex-wrap: wrap;
+	width: 225px;
 }
 
 .hebergement-image {
-	height: 115px;
+	height: 105px;
 	width: 100%;
 }
 
 .hebergement-image img {
 	border-radius: 15px 15px 0 0;
-	height: 115px;
+	height: 105px;
 	width: 100%;
 	object-fit: cover;
 }
@@ -288,6 +289,7 @@ form>button {
 	width: 100%;
     padding: 10px;
 	padding-bottom: 0;
+	font-size: 14px;
 }
 
 .first-content-part {
@@ -339,8 +341,8 @@ p>span {
 }
 
 .popular.hebergement-link{
-	width: 345px;
-	height: 145px;
+	width: 325px;
+	height: 125px;
     padding: 5px;
     margin-top: 15px;
 	margin-bottom: 15px;
@@ -362,8 +364,8 @@ p>span {
 
 .popular .hebergement-box {
 	display: flex;
-	width: 345px;
-	height: 145px;
+	width: 325px;
+	height: 125px;
 	flex-wrap: nowrap;
 }
 
@@ -373,7 +375,7 @@ p>span {
 
 .popular .hebergement-description {
 	width: auto;
-	height: 145px;
+	height: 125px;
 	padding: 0;
 	display: flex;
 	flex-direction: column;
@@ -522,4 +524,13 @@ p>span {
 .footer li {
 	margin-bottom: 15px;
 	font-size: 14px;
+}
+
+.rating-stars {
+	color: #0065FC;
+	font-size: 11px;
+}
+
+.rating-stars span {
+	color: #d2d2d2;
 }
